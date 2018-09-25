@@ -63,7 +63,7 @@ setup(
         'Topic :: Utilities',
     ],
     keywords=[
-        # eg: 'keyword1', 'keyword2', 'keyword3',
+        'microscopy', 'metadata', 'stitching', 'imagej', 'fiji',
     ],
     install_requires=[
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
