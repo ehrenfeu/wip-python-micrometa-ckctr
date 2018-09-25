@@ -24,7 +24,7 @@ https://python-mirometa-ckctr.readthedocs.io/
 Development
 -----------
 
-To run the all tests run::
+To run the all tests run:
 
     tox
 
