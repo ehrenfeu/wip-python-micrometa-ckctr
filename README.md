@@ -12,17 +12,17 @@ Library for parsing metadata from various light-microscopy related data formats
 * Free software: GPLv3 License
 
 Installation
-============
+------------
 
     pip install micrometa
 
 Documentation
-=============
+-------------
 
 https://python-mirometa-ckctr.readthedocs.io/
 
 Development
-===========
+-----------
 
 To run the all tests run::
 
