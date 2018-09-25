@@ -43,29 +43,37 @@ To set up `python-mirometa-ckctr` for local development:
 1. Fork [python-mirometa-ckctr](https://github.com/ehrenfeu/python-mirometa-ckctr)
    (look for the "Fork" button).
 
-2. Clone your fork locally:
+1. Clone your fork locally:
 
-    git clone git@github.com:your_name_here/python-mirometa-ckctr.git
+   ```
+   git clone git@github.com:your_name_here/python-mirometa-ckctr.git
+   ```
 
-3. Create a branch for local development::
+1. Create a branch for local development::
 
+   ```
     git checkout -b name-of-your-bugfix-or-feature
+   ```
 
    Now you can make your changes locally.
 
-4. When you're done making changes, run all the checks, doc builder and spell
+1. When you're done making changes, run all the checks, doc builder and spell
    checker with [tox](http://tox.readthedocs.io/en/latest/install.html) one
    command:
 
+   ```
     tox
+   ```
 
-5. Commit your changes and push your branch to GitHub:
+1. Commit your changes and push your branch to GitHub:
 
+   ```
     git add .
     git commit -m "Your detailed description of your changes"
     git push origin name-of-your-bugfix-or-feature
+   ```
 
-6. Submit a pull request through the GitHub website.
+1. Submit a pull request through the GitHub website.
 
 Pull Request Guidelines
 -----------------------
@@ -76,14 +84,15 @@ make the pull request.
 For merging, you should:
 
 1. Include passing tests (run `tox`).
+
    If you don't have all the necessary python versions available locally you can
    rely on Travis - it will [run the
    tests](https://travis-ci.org/ehrenfeu/python-mirometa-ckctr/pull_requests)
    for each change you add in the pull request. It will be slower though...
 
-2. Update documentation when there's new API, functionality etc.
-3. Add a note to `CHANGELOG.md` about the changes.
-4. Add yourself to `AUTHORS.md`.
+1. Update documentation when there's new API, functionality etc.
+1. Add a note to `CHANGELOG.md` about the changes.
+1. Add yourself to `AUTHORS.md`.
 
 Tips
 ----
