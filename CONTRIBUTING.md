@@ -5,7 +5,7 @@ Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given.
 
 Bug reports
-===========
+-----------
 
 When [reporting a bug](https://github.com/ehrenfeu/python-mirometa-ckctr/issues)
 please include:
@@ -16,14 +16,14 @@ please include:
 * Detailed steps to reproduce the bug.
 
 Documentation improvements
-==========================
+--------------------------
 
 mirometa-ckctr could always use more documentation, whether as part of the
 official mirometa-ckctr docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
 Feature requests and feedback
-=============================
+-----------------------------
 
 The best way to send feedback is to file an issue at
 https://github.com/ehrenfeu/python-mirometa-ckctr/issues.
@@ -36,7 +36,7 @@ If you are proposing a feature:
   are welcome :)
 
 Development
-===========
+-----------
 
 To set up `python-mirometa-ckctr` for local development:
 
@@ -75,8 +75,7 @@ To set up `python-mirometa-ckctr` for local development:
 
 1. Submit a pull request through the GitHub website.
 
-Pull Request Guidelines
------------------------
+### Pull Request Guidelines
 
 If you need some code review or feedback while you're developing the code just
 make the pull request.
@@ -94,8 +93,7 @@ For merging, you should:
 1. Add a note to `CHANGELOG.md` about the changes.
 1. Add yourself to `AUTHORS.md`.
 
-Tips
-----
+### Tips
 
 To run a subset of tests::
 
