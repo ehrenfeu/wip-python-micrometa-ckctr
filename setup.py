@@ -25,7 +25,7 @@ def read(*names, **kwargs):
 setup(
     name='micrometa',
     version='0.8.0',
-    license='BSD 2-Clause License',
+    license='GPLv3',
     description='Library for parsing metadata from various light-microscopy related data formats',
     long_description='%s\n%s' % (
         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
@@ -43,7 +43,7 @@ setup(
         # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',
+        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: Unix',
         'Operating System :: POSIX',
         'Operating System :: Microsoft :: Windows',
