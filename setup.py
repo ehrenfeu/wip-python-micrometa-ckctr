@@ -24,7 +24,7 @@ def read(*names, **kwargs):
 
 setup(
     name='micrometa',
-    version='0.8.0',
+    version='0.8.4',
     license='GPLv3',
     description='Library for parsing metadata from microscopy related data formats',
     long_description='%s\n%s' % (
