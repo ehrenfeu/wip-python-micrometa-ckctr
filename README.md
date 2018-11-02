@@ -1,5 +1,5 @@
-Overview
-========
+MicroMeta
+=========
 
 [//]: # (start-badges)
 
@@ -7,7 +7,12 @@ Overview
 
 [//]: # (end-badges)
 
-Library for parsing metadata from various light-microscopy related data formats
+Python package to process metadata from various light-microscopy related data formats.
+Supports generating [ImageJ][1] macros for stitching mosaics / tilings.
+
+The code is pure Python and known to work with CPython and Jython, so the
+package can also be imported in [ImageJ Jython scripts][2].
+
 
 * Free software: GPLv3 License
 
@@ -19,7 +24,7 @@ Installation
 Documentation
 -------------
 
-https://python-mirometa-ckctr.readthedocs.io/
+https://python-micrometa-ckctr.readthedocs.io/
 
 Development
 -----------
@@ -34,3 +39,7 @@ Note, to combine the coverage data from all the tox environments run:
 |---------|------------------------------------------|
 | Windows | `set PYTEST_ADDOPTS=--cov-append && tox` |
 | Other   | `PYTEST_ADDOPTS=--cov-append tox`        |
+
+
+[1]: https://imagej.net/
+[2]: https://imagej.net/Jython_Scripting
